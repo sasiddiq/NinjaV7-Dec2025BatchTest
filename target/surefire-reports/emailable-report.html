@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">edgeTest</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">69,836</td><td>regression</td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">firefoxTest</a></td><td class="num">9</td><td class="num">0</td><td class="num attn">2</td><td class="num attn">1</td><td class="num">92,560</td><td>regression</td><td></td></tr>
+<tr><td><a href="#t2">chromeTest</a></td><td class="num">9</td><td class="num">0</td><td class="num attn">2</td><td class="num attn">1</td><td class="num">197,502</td><td>regression</td><td></td></tr>
+<tr><th>Total</th><th class="num">28</th><th class="num">0</th><th class="num attn">4</th><th class="num attn">2</th><th class="num">359,898</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">edgeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC01_LaunchApplication</td><td><a href="#m0">testLaunchApplication</a></td><td rowspan="1">1767648430075</td><td rowspan="1">22</td></tr><tr class="passedodd"><td rowspan="5">testCases.TC02_Login</td><td><a href="#m1">testLogin</a></td><td rowspan="5">1767648467332</td><td rowspan="5">2611</td></tr><tr class="passedodd"><td><a href="#m2">testLogin</a></td></tr><tr class="passedodd"><td><a href="#m3">testLogin</a></td></tr><tr class="passedodd"><td><a href="#m4">testLogin</a></td></tr><tr class="passedodd"><td><a href="#m5">testLogin</a></td></tr><tr class="passedeven"><td rowspan="1">testCases.TC03_AddToCart</td><td><a href="#m6">testAddToCart</a></td><td rowspan="1">1767648433015</td><td rowspan="1">4421</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC04_CompletePurchase</td><td><a href="#m7">testCompletePurchase</a></td><td rowspan="1">1767648486590</td><td rowspan="1">9797</td></tr><tr class="passedeven"><td rowspan="1">testCases.TC05_AddToWishList</td><td><a href="#m8">testAddToWishList</a></td><td rowspan="1">1767648440691</td><td rowspan="1">6672</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC06_AddAffiliate</td><td><a href="#m9">testAddAffiliate</a></td><td rowspan="1">1767648452645</td><td rowspan="1">7983</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">firefoxTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC04_CompletePurchase</td><td><a href="#m10">testCompletePurchase</a></td><td rowspan="1">1767648516358</td><td rowspan="1">1945</td></tr><tr><th colspan="4">firefoxTest &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="2">testCases.TC04_CompletePurchase</td><td><a href="#m11">testCompletePurchase</a></td><td rowspan="2">1767648509100</td><td rowspan="2">5375</td></tr><tr class="retriedeven"><td><a href="#m12">testCompletePurchase</a></td></tr><tr><th colspan="4">firefoxTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC01_LaunchApplication</td><td><a href="#m13">testLaunchApplication</a></td><td rowspan="1">1767648435435</td><td rowspan="1">37</td></tr><tr class="passedodd"><td rowspan="5">testCases.TC02_Login</td><td><a href="#m14">testLogin</a></td><td rowspan="5">1767648497637</td><td rowspan="5">1525</td></tr><tr class="passedodd"><td><a href="#m15">testLogin</a></td></tr><tr class="passedodd"><td><a href="#m16">testLogin</a></td></tr><tr class="passedodd"><td><a href="#m17">testLogin</a></td></tr><tr class="passedodd"><td><a href="#m18">testLogin</a></td></tr><tr class="passedeven"><td rowspan="1">testCases.TC03_AddToCart</td><td><a href="#m19">testAddToCart</a></td><td rowspan="1">1767648447139</td><td rowspan="1">4304</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC05_AddToWishList</td><td><a href="#m20">testAddToWishList</a></td><td rowspan="1">1767648462645</td><td rowspan="1">4795</td></tr><tr class="passedeven"><td rowspan="1">testCases.TC06_AddAffiliate</td><td><a href="#m21">testAddAffiliate</a></td><td rowspan="1">1767648477477</td><td rowspan="1">3518</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">chromeTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC04_CompletePurchase</td><td><a href="#m22">testCompletePurchase</a></td><td rowspan="1">1767648561750</td><td rowspan="1">62336</td></tr><tr><th colspan="4">chromeTest &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="2">testCases.TC04_CompletePurchase</td><td><a href="#m23">testCompletePurchase</a></td><td rowspan="2">1767648496830</td><td rowspan="2">64918</td></tr><tr class="retriedeven"><td><a href="#m24">testCompletePurchase</a></td></tr><tr><th colspan="4">chromeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC01_LaunchApplication</td><td><a href="#m25">testLaunchApplication</a></td><td rowspan="1">1767648429352</td><td rowspan="1">832</td></tr><tr class="passedodd"><td rowspan="5">testCases.TC02_Login</td><td><a href="#m26">testLogin</a></td><td rowspan="5">1767648472285</td><td rowspan="5">3039</td></tr><tr class="passedodd"><td><a href="#m27">testLogin</a></td></tr><tr class="passedodd"><td><a href="#m28">testLogin</a></td></tr><tr class="passedodd"><td><a href="#m29">testLogin</a></td></tr><tr class="passedodd"><td><a href="#m30">testLogin</a></td></tr><tr class="passedeven"><td rowspan="1">testCases.TC03_AddToCart</td><td><a href="#m31">testAddToCart</a></td><td rowspan="1">1767648433047</td><td rowspan="1">4977</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC05_AddToWishList</td><td><a href="#m32">testAddToWishList</a></td><td rowspan="1">1767648440862</td><td rowspan="1">6649</td></tr><tr class="passedeven"><td rowspan="1">testCases.TC06_AddAffiliate</td><td><a href="#m33">testAddAffiliate</a></td><td rowspan="1">1767648450571</td><td rowspan="1">8377</td></tr></tbody>
+</table>
+<h2>edgeTest</h2><h3 id="m0">testCases.TC01_LaunchApplication#testLaunchApplication</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.TC02_Login#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>smitasharma.qa@gmail.com</td><td>ss*QA123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.TC02_Login#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>sid@cloudberry.services</td><td>Test123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCases.TC02_Login#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>nona@yahoo.com</td><td>QWER!@#$</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testCases.TC02_Login#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>hichamkhachiai@gmail.com</td><td>hicham123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testCases.TC02_Login#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>apushedwoman@gmail.com</td><td>password123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testCases.TC03_AddToCart#testAddToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testCases.TC04_CompletePurchase#testCompletePurchase</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testCases.TC05_AddToWishList#testAddToWishList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testCases.TC06_AddAffiliate#testAddAffiliate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>firefoxTest</h2><h3 id="m10">testCases.TC04_CompletePurchase#testCompletePurchase</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Test failed due to exception: Element &lt;a href=&quot;https://www.cloudberrystore.services/index.php?route=product/product&amp;language=en-gb&amp;product_id=47&quot;&gt; could not be scrolled into view
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4e08ad43-1c15-4e11-a633-cc7ac7d74265, clickElement {id=3e942280-9326-4ed2-bde0-f5ef9f85db5d}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 48780, moz:profile: C:\Users\shada\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (4e08ad43-1c15-4e11-a633-cc7ac7d74265)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]]
+Session ID: 4e08ad43-1c15-4e11-a633-cc7ac7d74265
+	at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:105)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testCases.TC04_CompletePurchase#testCompletePurchase</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Test failed due to exception: Element &lt;button id=&quot;button-payment-methods&quot; class=&quot;btn btn-primary&quot; type=&quot;button&quot;&gt; is not clickable at point (1163,527) because another element &lt;div id=&quot;modal-shipping&quot; class=&quot;modal show&quot;&gt; obscures it
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4e08ad43-1c15-4e11-a633-cc7ac7d74265, clickElement {id=bb5e416b-e067-47d5-9ead-ca1ebe67cda9}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 48780, moz:profile: C:\Users\shada\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (4e08ad43-1c15-4e11-a633-cc7ac7d74265)] -&gt; id: button-payment-methods]
+Session ID: 4e08ad43-1c15-4e11-a633-cc7ac7d74265
+	at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:105)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">testCases.TC04_CompletePurchase#testCompletePurchase</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Test failed due to exception: Element &lt;a href=&quot;https://www.cloudberrystore.services/index.php?route=product/product&amp;language=en-gb&amp;product_id=47&quot;&gt; could not be scrolled into view
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4e08ad43-1c15-4e11-a633-cc7ac7d74265, clickElement {id=2ec36ca3-2080-44de-9cb6-e100a647469c}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 48780, moz:profile: C:\Users\shada\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (4e08ad43-1c15-4e11-a633-cc7ac7d74265)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]]
+Session ID: 4e08ad43-1c15-4e11-a633-cc7ac7d74265
+	at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:105)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">testCases.TC01_LaunchApplication#testLaunchApplication</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">testCases.TC02_Login#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>nona@yahoo.com</td><td>QWER!@#$</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">testCases.TC02_Login#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>hichamkhachiai@gmail.com</td><td>hicham123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">testCases.TC02_Login#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>smitasharma.qa@gmail.com</td><td>ss*QA123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">testCases.TC02_Login#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>sid@cloudberry.services</td><td>Test123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">testCases.TC02_Login#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>apushedwoman@gmail.com</td><td>password123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">testCases.TC03_AddToCart#testAddToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">testCases.TC05_AddToWishList#testAddToWishList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">testCases.TC06_AddAffiliate#testAddAffiliate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>chromeTest</h2><h3 id="m22">testCases.TC04_CompletePurchase#testCompletePurchase</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Test failed due to exception: element not interactable
+  (Session info: chrome=143.0.7499.170)
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb9e6c0e5be52463b2ab823eb7560b26, clickElement {id=f.BB1F48824244ECA5ABD15839AEC0BD5B.d.29EF1B540B66A99CE5285F36F13C9B74.e.309}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\shada\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57224}, goog:processID: 16736, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57224/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (eb9e6c0e5be52463b2ab823eb7560b26)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]]
+Session ID: eb9e6c0e5be52463b2ab823eb7560b26
+	at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:105)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">testCases.TC04_CompletePurchase#testCompletePurchase</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Test failed due to exception: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//strong[normalize-space()=&apos;login page&apos;]&quot;}
+  (Session info: chrome=143.0.7499.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb9e6c0e5be52463b2ab823eb7560b26, findElement {value=//strong[normalize-space()=&apos;login page&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\shada\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57224}, goog:processID: 16736, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57224/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eb9e6c0e5be52463b2ab823eb7560b26
+	at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:105)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">testCases.TC04_CompletePurchase#testCompletePurchase</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Test failed due to exception: stale element reference: stale element not found
+  (Session info: chrome=143.0.7499.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb9e6c0e5be52463b2ab823eb7560b26, clickElement {id=f.BB1F48824244ECA5ABD15839AEC0BD5B.d.CF0A51D07440700B712D2AD203C855BB.e.211}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\shada\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57224}, goog:processID: 16736, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57224/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (eb9e6c0e5be52463b2ab823eb7560b26)] -&gt; id: button-shipping-methods]
+Session ID: eb9e6c0e5be52463b2ab823eb7560b26
+	at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:105)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">testCases.TC01_LaunchApplication#testLaunchApplication</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">testCases.TC02_Login#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>sid@cloudberry.services</td><td>Test123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">testCases.TC02_Login#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>apushedwoman@gmail.com</td><td>password123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">testCases.TC02_Login#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>hichamkhachiai@gmail.com</td><td>hicham123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m29">testCases.TC02_Login#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>smitasharma.qa@gmail.com</td><td>ss*QA123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m30">testCases.TC02_Login#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>nona@yahoo.com</td><td>QWER!@#$</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m31">testCases.TC03_AddToCart#testAddToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m32">testCases.TC05_AddToWishList#testAddToWishList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m33">testCases.TC06_AddAffiliate#testAddAffiliate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
